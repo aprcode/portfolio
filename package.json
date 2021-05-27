@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "Portfolio of Arthur Pinier-Rafer",
+  "main": "index.js",
+  "authors": {
+    "name": "Arthur Pinier-Rafer",
+    "email": "a.pinier.rafer@gmail.com"
+  },
+  "repository": "https://github.com/BadBlockFoundation/portfolio.git/portfolio",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vuepress-plugin-auto-sidebar": "^2.2.3",
+    "vuepress-theme-book": "^0.0.5"
+  }
+}
